@@ -1,0 +1,129 @@
+* {
+	font-family: 'Kanit', sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+.main {
+	background-color: #e6e6e6;
+	
+
+}
+
+.top {
+	background-color: #f7b600;
+	height: 141px;
+	border: 1px solid #f7b600;
+}
+
+.logo {
+	text-align: center;
+	height: 141px;
+}
+
+.cabeça {
+	justify-content: center;
+	display: block;
+	margin-top: 20px;
+}
+
+.tec {
+	color: #000;
+	font-size: 2.5em;
+	font-weight: bold;
+	margin-top: 25px;
+}
+
+.blog {
+	color: #fff;
+	font-size: 2.5em;
+	font-weight: bold;
+	margin-top: 25px;
+}
+
+.mainmenu {
+	margin-top: 15px;
+
+}
+
+.menu {
+	font-size: 16px;
+	text-decoration: none;
+	color: #fff;
+	padding: 10px;
+	margin: 15px 10px 0px 10px;
+}
+
+.menu:hover {
+
+	background-color: #fff;
+	color: #f7b600;
+}
+
+.body {
+	
+	
+}
+
+.arts {
+color: #f7b600;
+}
+
+article {
+	margin-bottom: 30px;
+}
+
+.p1 {
+	width: 660px;
+	margin-left: 15%;
+	float: left;
+}
+
+.side {
+	display: block;
+	margin: 0px;
+	background-color: rgb(212, 208, 208);
+}
+
+.leia {
+	color: #f7b600;
+	font-size: 11pt;
+}
+
+h6 {
+	display: block;
+	margin-bottom: 20px;
+}
+
+img {
+	display: block;
+}
+
+.lateral {
+	width: 15%;
+	float: right;
+	margin-right: 15%;
+	
+}
+
+.lateral p{
+	display: block;
+	
+}
+
+ul {
+	list-style-type: none;
+}
+
+.menulat {
+	color: #f7b600;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	background-color: silver;
+	font-size: 20px;
+	width: 70%;
+	margin: auto;
+}
