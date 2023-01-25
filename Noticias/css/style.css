@@ -1,0 +1,249 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url(../imagens/fundo.png);
+    background-repeat: repeat-x;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    background-image: url(../imagens/detalhe-topo.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 50vw;
+    height: 200px;
+    margin: 0px auto;
+}
+
+.logo {
+   position:relative;
+   top: 3vh;
+   left: 7vw
+}
+
+nav{
+    margin-top: 50px;
+}
+
+.mainmenu {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(129, 0, 0);
+    width: 700px;
+    margin: auto;
+}
+
+.item-menu {
+    font-weight: 700;
+    line-height: 10px;
+    font-size: 0.9em;
+    padding: 16px;
+    margin: 0px 10.5px;
+    text-align: center;
+}
+
+.mainmenu a {
+    text-decoration: none;
+    color: #dddddd;
+    background-image: url(../imagens/divisor.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.mainmenu a:hover {
+    background-color: red;
+    color: black;
+}
+
+.mainmenu a:first-child {
+    background-image: none;
+}
+
+main {
+    width:  35vmax;
+}
+
+#colunas {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    
+    
+}
+
+div h2 {
+    font-size: 1.5em;
+    font-weight: 400;  
+    color: #dddddd;
+    background-color: #294c71;
+    padding-left: 5px;
+}
+
+.box {
+    background: #f3f3f3 url(../imagens/fundo-caixa.png);
+    padding: 5px;
+}
+
+div p {
+    background: white;
+    color: black;
+    font-size: 1em;
+}
+
+#col-1 {
+    flex: 3;
+    order: 1;
+    margin: 5px 40px 30px 40px;
+    
+}
+
+#col-2 {
+    flex: 2;
+    order: 2;
+    margin: 5px 400px 30px 10px;
+    
+}
+
+.titulo {
+    background-color: #a50000;
+    color: #fff;
+}
+
+.taxi {
+    width: 540px;  
+}
+
+#columm-1 #col-1 {
+    flex: 0;
+    margin: 0px 0px 0px 460px;
+}
+
+#columm-2 #col-1, {
+    flex: 1;
+}
+
+#columm-2 .taxi {
+   width: 780px;  
+    
+}
+
+#columm-1 .taxi {
+    width: 960px;  
+}
+
+.felipe {
+    width: 365px;  
+}
+
+.leia {
+    color: #a50000;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#col-3 {
+    flex: 1;
+    order: 0;
+    margin: 5px 40px 30px 200px;
+}
+
+.link-lateral {
+    background-color: #fff;
+    padding: 5px 0px 10px 5px;
+}
+
+.link-lateral li {
+    margin-top: 15px;
+}
+
+.link-lateral li:first-child {
+    margin-top: 5px;
+}
+
+.link-lateral a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;   
+}
+
+.link-lateral a:hover {
+    background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+    padding-left: 20px;
+
+}
+
+.cad-email {
+    background-color: white;
+    padding: 10px 10px 0px 10px;
+}
+
+.cad-email input {
+    margin: 0px 0px 10px;
+}
+
+label {
+    font-size: 1.2em;
+}
+
+input[type="email"] {
+width: 180px;
+}
+
+input[type="submit"] {
+
+    width: 90px;
+    padding: 5px;
+    background-color: #a50000;
+    color: #fff;
+    font-size: 1em;
+    border-radius: 8px;
+    box-shadow: 4px 2px 15px rgba(255, 0, 0, 0.4);
+}
+
+.not {
+    width: 70px;
+    float: left;
+    margin-right: 5px;
+}
+.box a {
+    text-decoration: none;
+}
+
+.box li:hover {
+    background-color: rgba(216, 214, 214, 0.8);
+    cursor: pointer;
+}
+
+.box h5 {
+    color: #294c71;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box ul {
+    background-color: #fff;
+}
+
+.box li {
+    margin: 5px;
+    padding: 5px;
+    border-bottom: rgb(160, 159, 159) 1px solid;
+}
+
+.text-pre {
+    font: 0.8em sans-serif;
+    
+}
+
+footer {
+    background-color: #294c71;
+    height: 3vw;
+    text-align: center;
+    line-height: 3vw;
+}
